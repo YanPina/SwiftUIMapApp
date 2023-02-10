@@ -14,6 +14,7 @@
 		31C4E6BA29967F33001B000B /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C4E6B929967F33001B000B /* Location.swift */; };
 		31C4E6BD2996805B001B000B /* LocationsDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C4E6BC2996805B001B000B /* LocationsDataService.swift */; };
 		31C4E6C129968155001B000B /* LocationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C4E6C029968155001B000B /* LocationsView.swift */; };
+		31C4E6C329968BAA001B000B /* LocationsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C4E6C229968BAA001B000B /* LocationsViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		31C4E6B929967F33001B000B /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		31C4E6BC2996805B001B000B /* LocationsDataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationsDataService.swift; sourceTree = "<group>"; };
 		31C4E6C029968155001B000B /* LocationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsView.swift; sourceTree = "<group>"; };
+		31C4E6C229968BAA001B000B /* LocationsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 		31C4E6B829967EC3001B000B /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				31C4E6C229968BAA001B000B /* LocationsViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -179,6 +182,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				31C4E6BD2996805B001B000B /* LocationsDataService.swift in Sources */,
+				31C4E6C329968BAA001B000B /* LocationsViewModel.swift in Sources */,
 				31C4E6A929967D1A001B000B /* ContentView.swift in Sources */,
 				31C4E6C129968155001B000B /* LocationsView.swift in Sources */,
 				31C4E6BA29967F33001B000B /* Location.swift in Sources */,
